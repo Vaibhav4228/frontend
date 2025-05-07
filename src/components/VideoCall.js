@@ -24,7 +24,7 @@ const VideoCall = () => {
 
   useEffect(() => {
     // Connect to WebSocket server
-    const socket = new SockJS('http://https://vsocial-backend-v2.onrender.com:8080/ws');
+    const socket = new SockJS('https://vsocial-backend-v2.onrender.com/ws');
     const stomp = Stomp.over(socket);
     setStompClient(stomp);
 

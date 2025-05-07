@@ -25,7 +25,7 @@ const Demo = () => {
     const appID = 1693906495;
     const serverSecret = "30ed06a1114d4ba38458488676dda491";
     const { token } = await generateToken(
-      'http://https://vsocial-backend-v2.onrender.com:3000/api',
+      'https://vsocial-backend-v2.onrender.com/api',
       userID
     );
     const KitToken = ZegoUIKitPrebuilt.generateKitTokenForProduction(

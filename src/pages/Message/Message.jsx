@@ -80,7 +80,7 @@ const onErr=(err)=>{
 }
   useEffect(() => {
    
-      const sock = new SockJS("http://https://vsocial-backend-v2.onrender.com:5454/ws");
+    const sock = new SockJS("https://vsocial-backend-v2.onrender.com/ws");
       const stomp = Stomp.over(sock);
       setStompClient(stomp);
      
