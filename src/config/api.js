@@ -1,6 +1,6 @@
 import axios from "axios";
 const jwtToken = localStorage.getItem("jwt")
-export const API_BASE_URL = 'http://localhost:5454';
+export const API_BASE_URL = 'http://https://vsocial-backend-v2.onrender.com:5454';
 
 
 export const api = axios.create({
